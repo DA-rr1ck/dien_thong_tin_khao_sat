@@ -35,15 +35,47 @@ const group2 = [
 ];
 
 const group3 = [
-    { question: 'Câu hỏi 1 (Nhóm 3 - chọn nhiều đáp án)?', type: 'multiChoice', choices: ['Đáp án 1', 'Đáp án 2', 'Đáp án 3', 'Đáp án 4'] },
-    { question: 'Câu hỏi 2 (Nhóm 3 - chọn nhiều đáp án)?', type: 'multiChoice', choices: ['Đáp án 1', 'Đáp án 2', 'Đáp án 3', 'Đáp án 4'] },
-    // Thêm các câu hỏi khác cho nhóm 3
+    { question: 'Câu hỏi 1: Nền kinh tế nào sau đây thuộc vào nền kinh tế phát triển?', type: 'multiChoice', choices: ['a) Mỹ', 'b) Trung Quốc', 'c) Ấn Độ', 'd) Đức'] },
+ 
+    { question: 'Câu hỏi 2: Đâu là những loại hình năng lượng tái tạo?', type: 'multiChoice', choices: ['a) Năng lượng mặt trời', 'b) Năng lượng hạt nhân', 'c) Năng lượng gió', 'd) Năng lượng than'] },
+    
+    { question: 'Câu hỏi 3: Các ngôn ngữ lập trình nào dưới đây là ngôn ngữ web?', type: 'multiChoice', choices: ['a) HTML', 'b) CSS', 'c) Python', 'd) JavaScript'] },
+    
+    { question: 'Câu hỏi 4: Những bộ phận nào sau đây là phần của hệ tiêu hóa?', type: 'multiChoice', choices: ['a) Ruột non', 'b) Phế quản', 'c) Dạ dày', 'd) Gan'] },
+    
+    { question: 'Câu hỏi 5: Đâu là các loại chất liệu làm quần áo?', type: 'multiChoice', choices: ['a) Cotton', 'b) Kim loại', 'c) Da', 'd) Nhựa'] },
+    
+    { question: 'Câu hỏi 6: Ai là các nhà phê bình nghệ thuật nổi tiếng?', type: 'multiChoice', choices: ['a) Claude Monet', 'b) Vincent van Gogh', 'c) Pablo Picasso', 'd) Henri Matisse'] },
+    
+    { question: 'Câu hỏi 7: Đâu là những nguyên tố hóa học?', type: 'multiChoice', choices: ['a) Oxy', 'b) Nitơ', 'c) Nước', 'd) Cacbon'] },
+    
+    { question: 'Câu hỏi 8: Những ngôn ngữ nào dưới đây thuộc nhóm ngôn ngữ lập trình?', type: 'multiChoice', choices: ['a) Java', 'b) Tiếng Anh', 'c) Tiếng Tây Ban Nha', 'd) C++'] },
+    
+    { question: 'Câu hỏi 9: Những quốc gia nào sau đây là thành viên của Liên Hiệp Quốc?', type: 'multiChoice', choices: ['a) Mỹ', 'b) Trung Quốc', 'c) Nga', 'd) Nhật Bản'] },
+    
+    { question: 'Câu hỏi 10: Đâu là các loại động vật biển?', type: 'multiChoice', choices: ['a) Cá', 'b) Hải cẩu', 'c) Cá voi', 'd) Sóc'] }
 ];
 
 const group4 = [
-    { question: 'Câu hỏi 1 (Nhóm 4 - trả lời tự luận)?', type: 'openEnded' },
-    { question: 'Câu hỏi 2 (Nhóm 4 - trả lời tự luận)?', type: 'openEnded' },
-    // Thêm các câu hỏi khác cho nhóm 4
+    { question: 'Câu hỏi 1: Nêu một ví dụ về một vấn đề mà thế giới đang đối mặt trong lĩnh vực môi trường.', type: 'openEnded' },
+ 
+    { question: 'Câu hỏi 2: Bạn nghĩ gì về vai trò của công nghệ trong cuộc sống hàng ngày của chúng ta?', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 3: Mô tả một kỷ niệm quan trọng trong cuộc đời của bạn và tại sao nó quan trọng với bạn.', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 4: Bạn nghĩ gì về ảnh hưởng của truyền thông xã hội đối với thế hệ trẻ ngày nay?', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 5: Hãy so sánh và tương phản giữa cuộc sống ở thành phố và cuộc sống ở nông thôn.', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 6: Đánh giá vai trò của giáo dục trong xã hội hiện đại.', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 7: Nêu một ví dụ về một cuốn sách, bộ phim hoặc tác phẩm nghệ thuật mà bạn cảm thấy ảnh hưởng sâu sắc đối với bạn và giải thích tại sao.', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 8: Bạn nghĩ gì về sự phát triển của công nghệ AI (Trí tuệ nhân tạo) và ảnh hưởng của nó đối với tương lai của con người?', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 9: Hãy nói về một vấn đề xã hội mà bạn quan tâm và giải thích tại sao bạn quan tâm đến nó.', type: 'openEnded' },
+    
+    { question: 'Câu hỏi 10: Bạn nghĩ gì về tầm quan trọng của việc duy trì sức khỏe tinh thần và cách bạn có thể chăm sóc bản thân trong cuộc sống hàng ngày?', type: 'openEnded' }
 ];
 
 function startSurvey() {
