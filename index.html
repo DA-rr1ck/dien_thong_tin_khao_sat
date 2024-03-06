@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chức năng nhập thông tin và khảo sát</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="logo" alt="OmniFood logo" src="https://code.ptit.edu.vn/2020/images/logo_ptit.png"/>
+        <span class="title" id="title">Nhập thông tin cá nhân</span>
+    </header>
+
+    <div class="container">
+        <div id="userInfoForm" class="form-container">
+            <label for="fullName">Họ và tên:</label><br>
+            <input type="text" id="fullName" required><br><br>
+
+            <label for="dob">Ngày tháng năm sinh:</label><br>
+            <input type="date" id="dob" required><br><br>
+
+            <label for="cccd">CCCD:</label><br>
+            <input type="text" id="cccd" required><br><br>
+
+            <label for="address">Địa chỉ thường trú:</label><br>
+            <input type="text" id="address" required><br><br>
+
+            <div class="start">
+                <button class="start-btn" onclick="startSurvey()">Bắt đầu khảo sát</button>
+            </div>
+        </div>
+
+        <div id="survey" class="survey-container">
+            <!-- Survey questions will be displayed here -->
+        </div>
+
+        <div id="surveyResults" style="display: none;">
+            <!-- Survey results will be displayed here -->
+        </div>
+    </div>
+
+    <button id="submitBtn" class="submit-btn" onclick="submitSurvey()" style="display: none;">Gửi khảo sát</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
