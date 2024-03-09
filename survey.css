@@ -1,0 +1,62 @@
+.survey-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.survey-container .survey-questions{
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.submit-div{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.submit-btn:hover{
+    background-color: rgb(173, 0, 0);
+}
+
+.results-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.results-container .survey-results{
+    font-size: 22px;
+    line-height: 2;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.btm-div{
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-main{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
