@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="survey.css">
+</head>
+
+<body onload="generateQuestions()">
+
+    <header class="header">
+        <img class="logo" alt="OmniFood logo" src="https://code.ptit.edu.vn/2020/images/logo_ptit.png"/>
+        <span class="title" id="title">Câu hỏi khảo sát</span>
+    </header>
+
+    <div class="survey-container">
+        <div id="survey" class="survey-questions" >
+            <!-- Survey questions will be displayed here -->
+        </div>
+    </div>
+        
+    <div class="results-container"> 
+        <div id="surveyResults" class="survey-results" style="display: none;">
+            <!-- Survey results will be displayed here -->
+        </div>
+    </div>
+    
+    <div class="submit-div">
+        <button id="submitBtn" class="submit-btn" onclick="submitSurvey()">Gửi khảo sát</button>
+    </div>
+
+    <div class="btm-div">
+        <button id="back-to-main" class="back-to-main" style="display: none;">Trở về trang chủ</button>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
