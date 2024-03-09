@@ -182,4 +182,3 @@ function submitSurvey() {
 document.getElementById('back-to-main').addEventListener('click', function backToMain() {
     window.location.href = "index.html";
 });
-
