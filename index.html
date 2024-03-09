@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập thông tin và khảo sát</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="logo" alt="OmniFood logo" src="https://code.ptit.edu.vn/2020/images/logo_ptit.png"/>
+        <span class="title" id="title">Nhập thông tin cá nhân</span>
+    </header>
+
+    <div class="container">
+        <div id="userInfoForm" class="form-container">
+            <label for="fullName">Họ và tên:</label><br>
+            <input type="text" id="fullName" required><br><br>
+
+            <label for="dob">Ngày tháng năm sinh:</label><br>
+            <input type="date" id="dob" required><br><br>
+
+            <label for="cccd">CCCD:</label><br>
+            <input type="text" id="cccd" required><br><br>
+
+            <label for="address">Địa chỉ thường trú:</label><br>
+            <input type="text" id="address" required><br><br>
+
+            <div class="start">
+                <a href="survey.html"><button class="start-btn">Bắt đầu khảo sát</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
